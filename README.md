@@ -35,13 +35,6 @@ I built a small fictional organization, **Northbridge University IT**, inside a 
 
 ---
 
-## Before You Start
-
-### Requirements
-- A Microsoft Entra ID tenant (the **Free** tier is enough for everything except where noted)
-- An account in that tenant with the **Global Administrator** role (the account that created the tenant has this)
-- A web browser that supports a private/InPrivate window (used to test sign-ins as the lab users)
-
 ### Where everything lives
 All steps happen in the **Microsoft Entra admin center**: <https://entra.microsoft.com>
 
