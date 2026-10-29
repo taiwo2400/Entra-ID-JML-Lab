@@ -35,23 +35,6 @@ I built a small fictional organization, **Northbridge University IT**, inside a 
 
 ---
 
-### Where everything lives
-All steps happen in the **Microsoft Entra admin center**: <https://entra.microsoft.com>
-
-> **Note:** Microsoft reorganizes the left-hand menu every so often. Depending on when you do this lab, users and groups may be under **Identity → Users** or **Entra ID → Users**. The pages themselves are the same — just look for "Users," "Groups," and "Roles & admins."
-
-### Find your domain
-Every user you create will have a username ending in your tenant's domain, something like `@yourtenant.onmicrosoft.com`.
-1. Go to **Overview** (the home page of the admin center).
-2. Note the **Primary domain**. Anywhere this guide says `@yourdomain`, use yours.
-
-### Screenshot tips
-- Create a folder named `screenshots/` and name files exactly as listed in this guide (e.g., `01-groups-created.png`). That way they line up with the README when you upload to GitHub.
-- **Blur or crop** your Tenant ID, your own admin email, and any temporary passwords before posting. Fictional user names are fine to show.
-- Use **Windows + Shift + S** (Windows) or **Cmd + Shift + 4** (Mac).
-
----
-
 ## Part 1 — Build the Environment (~25 min)
 
 Before we can run joiners, movers, and leavers, we need an "organization" to work inside: departments (groups) and a few existing employees.
